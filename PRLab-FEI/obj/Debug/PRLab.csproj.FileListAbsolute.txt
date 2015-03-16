@@ -1,0 +1,15 @@
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\bin\Debug\PRLab.exe
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\bin\Debug\PRLab.pdb
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\bin\Debug\BioLab.dll
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\bin\Debug\BioLab.xml
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\obj\Debug\PRLab.AboutBox.resources
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\obj\Debug\PRLab.OuputViewerCorrelazione.resources
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\obj\Debug\BioLab.GUI.UserControls.SimpleConvolutionParameterControl.resources
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\obj\Debug\BioLab.GUI.Forms.NewImageForm.resources
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\obj\Debug\PRLab.MainForm.resources
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\obj\Debug\PRLab.MdiChildForm.resources
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\obj\Debug\PRLab.Properties.Resources.resources
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\obj\Debug\PRLab.csproj.GenerateResource.Cache
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\obj\Debug\PRLab.exe
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\obj\Debug\PRLab.pdb
+C:\Users\Pascu\Desktop\PRLab-FEI\PRLab-FEI\obj\Debug\PRLab.csprojResolveAssemblyReference.cache
