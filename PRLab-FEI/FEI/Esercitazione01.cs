@@ -52,17 +52,6 @@ namespace PRLab.FEI
         {
             get;
             set;
-            //get{
-            //    return Variazione;
-            //}
-            //set
-            //{
-            //    if (value > 100 || value < -100)
-            //    {
-            //        throw new ArgumentException("La variazione deve essere compresa tra -100 e +100 inclusi","value");
-            //    }
-            //    Variazione = value;
-            //}
         }
 
         public override void Run()
