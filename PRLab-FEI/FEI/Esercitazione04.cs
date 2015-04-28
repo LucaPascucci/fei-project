@@ -117,9 +117,47 @@ namespace PRLab.FEI
     {
     }
 
+    private void Mapping()
+    {
+        double cos = Math.Cos(-RotationDegrees * Math.PI / 180);
+        double sin = Math.Sin(-RotationDegrees * Math.PI / 180);
+
+        Result = new Image<byte>(InputImage.Width, InputImage.Height);
+
+        for (int xNew = 0; xNew < InputImage.Width; xNew++)
+        {
+            for (int yNew = 0; yNew < InputImage.Height; yNew++)
+            {
+                double xOld = (1 / ScaleFactorX) * (cos * xNew + sin * yNew);
+                double yOld = (1 / ScaleFactorY) * (-sin * xNew + cos * yNew);
+                Result[yNew, xNew] = Interpolazione(xOld, yOld);
+            }
+        }
+    }
+
+    private byte ImgOrBack(int x, int y)
+    {
+        if (x >= 0 && x < InputImage.Width && y >= 0 && y < InputImage.Height)
+            return InputImage[y, x];
+        else return Background;
+    }
+
+    private byte Interpolazione(double xOld, double yOld)
+    {
+        int xL = (int)Math.Floor(xOld);
+        int yL = (int)Math.Floor(yOld);
+
+        double wa = (xL + 1 - xOld) * (yL + 1 - yOld);
+        double wb = (xOld - xL) * (yL + 1 - yOld);
+        double wc = (xL + 1 - xOld) * (yOld - yL);
+        double wd = (xOld - xL) * (yOld - yL);
+
+        return (ImgOrBack(xL, yL) * wa + ImgOrBack(xL + 1, yL) * wb + ImgOrBack(xL, yL + 1) * wc + ImgOrBack(xL + 1, yL + 1) * wd).RoundAndClipToByte();
+    }
+
     public override void Run()
     {
-      throw new NotImplementedException();
+        Mapping();
     }
   }
 

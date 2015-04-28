@@ -134,8 +134,7 @@ namespace PRLab.FEI
     {
     }
 
-    public ImageArithmetic(Image<byte> image1, Image<byte> image2, ImageArithmeticOperation operation)
-      : base(image1, image2)
+    public ImageArithmetic(Image<byte> image1, Image<byte> image2, ImageArithmeticOperation operation) : base(image1, image2)
     {
       Operation = operation;
     }
