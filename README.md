@@ -4,7 +4,7 @@ Progetto di laboratorio del corso di Fondamenti di Elaborazione di Immagini
 
 **Dettagli**
 
-Ingegneria e scienze informatiche, Università di Bologna, Cesena Campus
+[Ingegneria e scienze informatiche](http://corsi.unibo.it/Laurea/IngegneriaScienzeInformatiche/Pagine/default.aspx), Università di Bologna, Cesena Campus
 
 CORSO DI FONDAMENTI DI ELABORAZIONE DI IMMAGINI - [Cappelli Raffaele](http://www.unibo.it/SitoWebDocente/default.aspx?UPN=raffaele.cappelli%40unibo.it)
 
