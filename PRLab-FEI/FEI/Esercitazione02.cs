@@ -123,7 +123,6 @@ namespace PRLab.FEI
             RedChannelGrayscale = InputImage.RedChannel;
             BlueChannelGrayscale = InputImage.BlueChannel;
             GreenChannelGrayscale = InputImage.GreenChannel;
-
         }
 
     }

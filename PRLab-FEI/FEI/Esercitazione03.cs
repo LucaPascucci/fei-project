@@ -82,8 +82,7 @@ namespace PRLab.FEI
         int diff = max - min;
         if (diff > 0)
         {
-            var op = new LookupTableTransform<byte>(InputImage,
-            p => (255 * (p - min) / diff).ClipToByte());
+            var op = new LookupTableTransform<byte>(InputImage, p => (255 * (p - min) / diff).ClipToByte());
             Result = op.Execute();
         }
         else
@@ -116,7 +115,7 @@ namespace PRLab.FEI
         {
             histogram[i] += histogram[i - 1];
         }
-        // Definisce la funzione di mapping e applica la LUT
+        // Definisce la funzione di mapping e applica la LookUpTable
         var op = new LookupTableTransform<byte>(InputImage,p => (byte)(255 * histogram[p] / InputImage.PixelCount));
         Result = op.Execute();
     }

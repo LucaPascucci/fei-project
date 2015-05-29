@@ -66,7 +66,6 @@ namespace PRLab.FEI
     {
         public override void Run()
         {
-
             LookupTableTransform<RgbPixel<byte>> lookupTable = new LookupTableTransform<RgbPixel<byte>>(InputImage, LookupTables.Spectrum);
             lookupTable.Run();
 
