@@ -110,7 +110,7 @@ namespace PRLab.FEI
     public override void Run()
     {
         Histogram histogram = new HistogramBuilder(InputImage).Execute();
-        // Ricalcola ogni elemento dell'istogramma come somma dei precedenti
+        // Ricalcola ogni elemento dell'istogramma come somma del precedente
         for (int i = 1; i < 256; i++)
         {
             histogram[i] += histogram[i - 1];
